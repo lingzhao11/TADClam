@@ -3,7 +3,7 @@
 ***Overlapped and nested topologically associating domains detection with community affiliation model
 
 Requirements
-enviorment : Python3.7 or above.
+enviorment : Python3.8 or above.
 
 packages : including numpy, multiprocessing, and scipy.
 
