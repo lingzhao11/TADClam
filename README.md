@@ -5,7 +5,7 @@
 Requirements
 enviorment : Python3.7 or above.
 
-packages : including numpy .
+packages : including numpy, multiprocessing, and scipy.
 
 Usage
 python TADClam.py in_Hi_C Ft_threshold
