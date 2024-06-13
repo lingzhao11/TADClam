@@ -8,12 +8,14 @@ enviorment : Python3.8 or above.
 packages : including numpy, multiprocessing, and scipy.
 
 Usage
-python TADClam.py in_Hi_C Ft_threshold
+python TADClam.py -in Hi_C_matrix
 
-###Parameters
+#Parameters
 
-Hi-C matrix : the input file of a N*N Hi-C matrix separated by TAB for a chromosome i.
+-in : the input file of a N*N Hi-C matrix separated by TAB for a chromosome i.
 
-Ft_threshold : the threshold for filtering candidate TADs. (Default value is 2.50)
+-threshold : the threshold for filtering candidate TADs. (Default value is 2.50)
 
-ou_TADs : the output file for the predicted TAD of chromosome i, where a line represents a TAD containing two columns that represent the start bin and the end bin of a TAD.
+-iter : the iteration number of table F. (Default value is 1500)
+
+-out : the output file for the predicted TAD of chromosome i, where a line represents a TAD containing two columns that represent the start bin and the end bin of a TAD.
