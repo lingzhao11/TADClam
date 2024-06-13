@@ -394,7 +394,7 @@ def main():
     parser.add_argument("-out", dest="out", type=str, default="result.txt", help="output of the results")
     args = parser.parse_args()
     TADs = run(args.input, args.iter, args.Threshold)
-    np.savetxt(args.out,TADs)
+    np.savetxt(args.out, TADs, fmt='%i', delimiter='\t')
 
 if __name__ == "__main__":
     main()
