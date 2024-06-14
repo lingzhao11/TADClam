@@ -337,7 +337,7 @@ def score_filter(adj, mid_boundaries, T_div= 2.5):
         x = [temp[0] + 1, temp[1] + 1]
         final_boundaries_v2.append(x)
 
-    return  final_boundaries
+    return  final_boundaries_v2
 
 
 def find_overlap_node(node, node_list):
