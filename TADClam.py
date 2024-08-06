@@ -388,7 +388,7 @@ def run(matrix, iter = 1500, thr = 2.50):
 def main():
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("-in", dest="input", type=str, default="test.txt", help="destination of the data")
+    parser.add_argument("-in", dest="input", type=str, default="chr21 (region 17Mb-30Mb).txt", help="destination of the data")
     parser.add_argument("-iter", dest="iter",type=int, default=1500, help="iteration of table F")
     parser.add_argument("-threshold", dest="Threshold", type=float, default=2.50, help="Threshold of filtering")
     parser.add_argument("-out", dest="out", type=str, default="result.txt", help="output of the results")
