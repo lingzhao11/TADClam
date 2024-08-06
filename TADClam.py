@@ -92,13 +92,13 @@ def first_and_last_index(li, lower_limit = 0):
 
 
 def get_boundary(F, k): 
-    #return TADs >= 3 bins
+    #return TADs >= 5 bins
     boundaries= []
     for cluster in range(k):
         temp_arr = F[ :, cluster]
         boundary_list = first_and_last_index(temp_arr)
         for temp_boundary in boundary_list:
-            if temp_boundary[1]- temp_boundary[0] >= 3:
+            if temp_boundary[1]- temp_boundary[0] >= 5:
                 boundaries.append([temp_boundary[0], temp_boundary[1]])         
     return boundaries
 
