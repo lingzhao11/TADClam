@@ -20,9 +20,8 @@ def gradient(F, A, i):
     calculating the gradient of table F
     """
     N, C = F.shape
-    #neighbor sum/3
     sum_neigh = np.zeros((C,))
-    for nb in range(i- int(N/ 3), i+ int(N/ 3), 1):
+    for nb in range(0, N, 1):
         if nb != i and nb >= 0 and nb < N:
             dotproduct = F[nb].dot(F[i]) + 1
             fi = digamma(dotproduct)
