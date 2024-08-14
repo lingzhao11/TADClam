@@ -19,3 +19,5 @@ python TADClam.py -in Hi_C_matrix
 -iter : the iteration number of table F. (Default value is 1500)
 
 -out : the output file for the predicted TAD of chromosome i, where a line represents a TAD containing two columns that represent the start bin and the end bin of a TAD.
+
+contact: zhaoling2-c@my.cityu.edu.hk
